@@ -1,0 +1,74 @@
+extends _layout\layout
+
+block content
+    main
+        section.promo#promo
+            .container
+                .promo-info
+                    h1.promo-title#title Lorem ipsum dolor sit amet.
+                    .promo-video
+                        iframe(id="video" width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/aK-X2d0lJ_s?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen)
+                    p.promo-text !Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    button.btn.btn-info.btn-lg#promo-btn Watch online
+        section.series#series
+            .container
+                .series-info
+                    .series-cards
+                        .row
+                            .col-md-6.col-lg-4.col-xs-12
+                                .card
+                                    img.card-img-top(src="https://i2.wp.com/itc.ua/wp-content/uploads/2017/12/stranger-things-poster.jpg?fit=2394%2C1080&quality=100&strip=all&ssl=1" alt="Card image cap")
+                                    .card-body
+                                        h5.card-titleCard title
+                                        p.card-text Some quick example text to build on the card title and make up the bulk of the card's content.
+                                        a.btn.btn-primary.btn-watch(href="#") Watch
+                            .col-md-6.col-lg-4.col-xs-12
+                                .card
+                                    img.card-img-top(src="https://i2.wp.com/itc.ua/wp-content/uploads/2017/12/stranger-things-poster.jpg?fit=2394%2C1080&quality=100&strip=all&ssl=1" alt="Card image cap")
+                                    .card-body
+                                        h5.card-titleCard title
+                                        p.card-text Some quick example text to build on the card title and make up the bulk of the card's content.
+                                        a.btn.btn-primary.btn-watch(href="#") Watch
+                            .col-md-6.col-lg-4.col-xs-12            
+                                .card
+                                    img.card-img-top(src="https://i2.wp.com/itc.ua/wp-content/uploads/2017/12/stranger-things-poster.jpg?fit=2394%2C1080&quality=100&strip=all&ssl=1" alt="Card image cap")
+                                    .card-body
+                                        h5.card-titleCard title
+                                        p.card-text Some quick example text to build on the card title and make up the bulk of the card's content.
+                                        a.btn.btn-primary.btn-watch(href="#") Watch
+                            .col-md-6.col-lg-4.col-xs-12            
+                                .card
+                                    img.card-img-top(src="https://i2.wp.com/itc.ua/wp-content/uploads/2017/12/stranger-things-poster.jpg?fit=2394%2C1080&quality=100&strip=all&ssl=1" alt="Card image cap")
+                                    .card-body
+                                        h5.card-titleCard title
+                                        p.card-text Some quick example text to build on the card title and make up the bulk of the card's content.
+                                        a.btn.btn-primary.btn-watch(href="#") Watch
+                            .col-md-6.col-lg-4.col-xs-12            
+                                .card
+                                    img.card-img-top(src="https://i2.wp.com/itc.ua/wp-content/uploads/2017/12/stranger-things-poster.jpg?fit=2394%2C1080&quality=100&strip=all&ssl=1" alt="Card image cap")
+                                    .card-body
+                                        h5.card-titleCard title
+                                        p.card-text Some quick example text to build on the card title and make up the bulk of the card's content.
+                                        a.btn.btn-primary.btn-watch(href="#") Watch
+                            .col-md-6.col-lg-4.col-xs-12            
+                                .card
+                                    img.card-img-top(src="https://i2.wp.com/itc.ua/wp-content/uploads/2017/12/stranger-things-poster.jpg?fit=2394%2C1080&quality=100&strip=all&ssl=1" alt="Card image cap")
+                                    .card-body
+                                        h5.card-titleCard title
+                                        p.card-text Some quick example text to build on the card title and make up the bulk of the card's content.
+                                        a.btn.btn-primary.btn-watch(href="#") Watch
+        section.contact#contact
+            .container
+                .contact-info
+                    h3.contact-tile Be in touch with us!
+                    form#form.form-main(action="https://www.freecodecamp.com/email-submit")
+                        label#email-label(for="email") Email
+                        input.form-control#email(type="email" name="email" placeholder="Enter your email" required ) 
+                        input#submit.btn.btn-primary.btn-large.contact-btn(type="submit" value="Email Newsletter")
+        section.about#about
+            .container
+                .about-info
+                    h3.about-title About Netflix
+                    .about-text
+                        p Netflix is the world's leading streaming lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt molestiae magni delectus corrupti saepe dignissimos ipsam hic tempora odio aliquam iusto, neque aperiam esse, est consequuntur. Repellat nostrum tempora quas, obcaecati voluptas officiis at aut, architecto adipisci aliquid sunt enim!.
+                    button.btn.btn-info.btn-lg#btn-about Learn more  

@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto Mono', monospace;
+}
+
+//Container
+.container{
+    width: 1140px;
+}
+//MEDIA
+
+
+
+//Variables
+
+
+
+//Styled Components
+
+@import "components/header";
+@import "content/index";
